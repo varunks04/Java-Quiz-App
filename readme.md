@@ -3,6 +3,7 @@
 A modern, interactive quiz application built with Java Swing that tests your knowledge with a variety of questions. The application features a sleek, user-friendly interface with smooth animations and sound effects.
 
 ## 🌟 Features
+![Screenshot 2025-06-01 134537](https://github.com/user-attachments/assets/89b3c778-e236-4b89-82c6-d91abe466cd0)
 
 - **Modern UI Design**: Clean and intuitive interface with smooth animations
 - **Dark/Light Mode**: Toggle between dark and light themes
@@ -24,6 +25,10 @@ A modern, interactive quiz application built with Java Swing that tests your kno
 5. Click "Submit" or wait for the timer
 6. Review your answers at the end
 7. Try again to improve your score!
+
+![Screenshot 2025-06-01 134752](https://github.com/user-attachments/assets/2f01860d-c8cd-4569-b854-6be583ea8ada)
+![Screenshot 2025-06-01 134811](https://github.com/user-attachments/assets/0c51a981-3694-48e2-aee9-00a5fb9ea112)
+![Screenshot 2025-06-01 134940](https://github.com/user-attachments/assets/e8b0e90a-eb4c-4e26-98cd-9ba6825cb49b)
 
 ## ⚙️ Technical Features
 
