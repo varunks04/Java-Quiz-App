@@ -1,0 +1,25 @@
+# MySQL Connector
+*.jar
+
+# Compiled class files
+*.class
+
+# IDE files
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+
+# Build directories
+target/
+build/
+out/
+
+# Logs
+*.log
+
+# OS specific files
+.DS_Store
+Thumbs.db 
