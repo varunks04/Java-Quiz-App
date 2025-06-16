@@ -26,6 +26,8 @@ A modern, interactive quiz application built with Java Swing that tests your kno
 6. Review your answers at the end
 7. Try again to improve your score!
 
+![image](https://github.com/user-attachments/assets/f5f16591-5146-48c5-955f-0b8c4dbd48a7)
+
 ![Screenshot 2025-06-01 134752](https://github.com/user-attachments/assets/2f01860d-c8cd-4569-b854-6be583ea8ada)
 ![Screenshot 2025-06-01 134811](https://github.com/user-attachments/assets/0c51a981-3694-48e2-aee9-00a5fb9ea112)
 ![Screenshot 2025-06-01 134940](https://github.com/user-attachments/assets/e8b0e90a-eb4c-4e26-98cd-9ba6825cb49b)
