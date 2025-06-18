@@ -1,18 +1,17 @@
+package src.main.java.com.quiz.app;
+
+import src.main.java.com.quiz.app.db.DatabaseConnector;
+
 import javax.swing.*;
-import java.awt.*;
-import java.awt.event.*;
-import java.sql.*;
-import java.util.List;
-import java.util.ArrayList;
 import javax.swing.UIManager;
 
 public class QuizApp extends JFrame {
-    // This class is now just a launcher for QuizGUI
-    // All GUI logic is handled in QuizGUI
+    // This class is now just a launcher for src.main.java.com.quiz.app.QuizGUI
+    // All GUI logic is handled in src.main.java.com.quiz.app.QuizGUI
     
     public QuizApp() {
-        // This class is now just a launcher for QuizGUI
-        // All GUI logic is handled in QuizGUI
+        // This class is now just a launcher for src.main.java.com.quiz.app.QuizGUI
+        // All GUI logic is handled in src.main.java.com.quiz.app.QuizGUI
     }
     
     private void cleanup() {

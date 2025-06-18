@@ -1,3 +1,5 @@
+package src.main.java.com.quiz.app.entity;
+
 public class Question {
     private String questionText;
     private String[] options;

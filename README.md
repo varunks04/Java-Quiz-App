@@ -111,7 +111,7 @@ INSERT INTO questions (question, option1, option2, option3, option4, correct_ans
    - Download the Platform Independent (ZIP) version
    - Extract the ZIP file
    - Add the `mysql-connector-j-*.jar` file to your project's classpath
-3. Update database credentials in `DatabaseConnector.java`:
+3. Update database credentials in `src.main.java.com.quiz.app.db.DatabaseConnector.java`:
 ```java
 private static final String URL = "jdbc:mysql://localhost:3306/quiz_app";
 private static final String USER = "your_username";
@@ -126,7 +126,7 @@ private static final String PASSWORD = "your_password";
 javac -cp ".;mysql-connector-j-*.jar" *.java
 
 # Run
-java -cp ".;mysql-connector-j-*.jar" QuizApp
+java -cp ".;mysql-connector-j-*.jar" src.main.java.com.quiz.app.QuizApp
 ```
 
 #### Linux/Mac
@@ -135,7 +135,7 @@ java -cp ".;mysql-connector-j-*.jar" QuizApp
 javac -cp ".:mysql-connector-j-*.jar" *.java
 
 # Run
-java -cp ".:mysql-connector-j-*.jar" QuizApp
+java -cp ".:mysql-connector-j-*.jar" src.main.java.com.quiz.app.QuizApp
 ```
 
 #### Using an IDE (Recommended)
@@ -189,7 +189,7 @@ dependencies {
 
 4. **Database Connection**
    - Verify MySQL server is running
-   - Check database credentials in `DatabaseConnector.java`
+   - Check database credentials in `src.main.java.com.quiz.app.db.DatabaseConnector.java`
    - Ensure database and tables are created
 
 #### Quick Start (Windows)
@@ -200,7 +200,7 @@ dependencies {
 javac -cp ".;mysql-connector-j-*.jar" *.java
 
 # 4. Run
-java -cp ".;mysql-connector-j-*.jar" QuizApp
+java -cp ".;mysql-connector-j-*.jar" src.main.java.com.quiz.app.QuizApp
 ```
 
 #### Quick Start (Linux/Mac)
@@ -211,7 +211,7 @@ java -cp ".;mysql-connector-j-*.jar" QuizApp
 javac -cp ".:mysql-connector-j-*.jar" *.java
 
 # 4. Run
-java -cp ".:mysql-connector-j-*.jar" QuizApp
+java -cp ".:mysql-connector-j-*.jar" src.main.java.com.quiz.app.QuizApp
 ```
 
 Note: Replace `mysql-connector-j-*.jar` with the actual filename of your downloaded connector (e.g., `mysql-connector-j-8.0.33.jar`).
@@ -229,9 +229,9 @@ Note: Replace `mysql-connector-j-*.jar` with the actual filename of your downloa
 ## 🔧 Configuration
 
 The application can be configured through:
-- `DatabaseConnector.java`: Database settings
-- `QuizGUI.java`: UI customization
-- `Question.java`: Question structure
+- `src.main.java.com.quiz.app.db.DatabaseConnector.java`: Database settings
+- `src.main.java.com.quiz.app.QuizGUI.java`: UI customization
+- `src.main.java.com.quiz.app.entity.Question.java`: src.main.java.com.quiz.app.entity.Question structure
 
 ## 🎯 Game Modes
 

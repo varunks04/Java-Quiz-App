@@ -1,12 +1,15 @@
+package src.main.java.com.quiz.app;
+
+import src.main.java.com.quiz.app.db.DatabaseConnector;
+import src.main.java.com.quiz.app.entity.Question;
+
 import javax.swing.*;
-import javax.swing.border.*;
 import java.awt.*;
 import java.awt.event.*;
 import java.util.*;
 import javax.swing.Timer;
 import java.util.List;
 import java.awt.Toolkit;
-import java.util.stream.Collectors;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.ArrayList;
@@ -691,7 +694,7 @@ public class QuizGUI extends JFrame {
             }
             
             progressBar.setValue((currentQuestionIndex * 100) / questions.size());
-            progressBar.setString(String.format("Question %d of %d", currentQuestionIndex + 1, questions.size()));
+            progressBar.setString(String.format("src.main.java.com.quiz.app.entity.Question %d of %d", currentQuestionIndex + 1, questions.size()));
             
             animationProgress = 0f;
             animationTimer.start();
@@ -889,8 +892,8 @@ public class QuizGUI extends JFrame {
                 BorderFactory.createEmptyBorder(20, 20, 20, 20)
             ));
 
-            // Question number and text
-            JLabel questionNumber = new JLabel("Question " + (answeredQuestions.indexOf(question) + 1));
+            // src.main.java.com.quiz.app.entity.Question number and text
+            JLabel questionNumber = new JLabel("src.main.java.com.quiz.app.entity.Question " + (answeredQuestions.indexOf(question) + 1));
             questionNumber.setFont(new Font("SF Pro Display", Font.BOLD, 16));
             questionNumber.setForeground(accentColor);
             questionNumber.setAlignmentX(Component.LEFT_ALIGNMENT);
