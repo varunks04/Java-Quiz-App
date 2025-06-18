@@ -1,8 +1,11 @@
+package src.main.java.com.quiz.app.db;
+
+import src.main.java.com.quiz.app.entity.Question;
+
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.logging.Logger;
-import java.util.logging.Level;
 
 public class DatabaseConnector {
     private static final Logger LOGGER = Logger.getLogger(DatabaseConnector.class.getName());
@@ -80,7 +83,7 @@ public class DatabaseConnector {
         
         // Validate input
         if (limit <= 0) {
-            throw new IllegalArgumentException("Question limit must be positive, got: " + limit);
+            throw new IllegalArgumentException("src.main.java.com.quiz.app.entity.Question limit must be positive, got: " + limit);
         }
         
         String query = "SELECT id, question, option1, option2, option3, option4, correct_answer " +
@@ -134,7 +137,7 @@ public class DatabaseConnector {
     }
     
     /**
-     * Creates Question object from ResultSet with validation
+     * Creates src.main.java.com.quiz.app.entity.Question object from ResultSet with validation
      */
     private static Question createQuestionFromResultSet(ResultSet rs) throws SQLException {
         int id = rs.getInt("id");
@@ -143,7 +146,7 @@ public class DatabaseConnector {
         
         // Validate required fields
         if (questionText == null || questionText.trim().isEmpty()) {
-            throw new SQLException("Question text is null or empty for ID: " + id);
+            throw new SQLException("src.main.java.com.quiz.app.entity.Question text is null or empty for ID: " + id);
         }
         
         if (correctAnswer == null || correctAnswer.trim().isEmpty()) {
